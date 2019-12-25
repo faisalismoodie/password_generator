@@ -34,7 +34,7 @@ def log(s):
     with open("log.txt",'a') as f:
         f.write(s+"\n")
 
-print('\n******PASSWORD GENERATOR******\n')
+# print('\n*******PASSWORD GENERATOR*******\n')
 n,s=True,''
 while n==True:
     i=int(input("\n________MAIN MENU_________\nPress [0]. To Exit\nPress [1]. To Generate your password.\n"))
